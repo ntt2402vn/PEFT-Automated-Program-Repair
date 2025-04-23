@@ -7,8 +7,8 @@ This repository contains all necessary files and resources related to my researc
 Instruction datasets used for training and evaluation in the study:
 
 - **[No Context]** dataset: The steps for building [No Context] dataset is included in Scripts.ipynb. https://huggingface.co/datasets/zxliu/ReAPR-Automatic-Program-Repair-via-Retrieval-Augmented-Large-Language-Models
-- **[Some Context]** dataset: https://huggingface.co/datasets/ntt2402vn/30k_withcomments
-- **[Full Context]** dataset: https://huggingface.co/datasets/ntt2402vn/30k_withcomments_solution
+- **[Some Context]** dataset: My Custom dataset that includes only bug description. https://huggingface.co/datasets/ntt2402vn/30k_withcomments
+- **[Full Context]** dataset: My Custom dataset that includes both bug description and fix explanation. https://huggingface.co/datasets/ntt2402vn/30k_withcomments_solution
 
 ## 📁 Benchmarks
 
