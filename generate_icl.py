@@ -9,7 +9,7 @@ with open("correct_codes.json", "r") as f:
     dataset = json.load(f)
 
 # Contains incorrect code, each contains explanation on intended logic of the program
-with open("ICL/dataset_updated_0_examples.json", "r") as f:
+with open("0_examples_benchmark.json", "r") as f:
     dataset1 = json.load(f)
     
 # Prompt that is used for prompting OpenAI to generate few-prompt (buggy/fixed pairs)
