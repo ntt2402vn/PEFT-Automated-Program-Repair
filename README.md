@@ -2,6 +2,14 @@
 
 This repository contains all necessary files and resources related to my research on parameter-efficient fine-tuning for automated program repair. Each component is documented and reproducible.
 
+## 📚 Instruction Datasets
+
+Instruction datasets used for training and evaluation in the study:
+
+- **[No Context]** dataset: https://huggingface.co/datasets/zxliu/ReAPR-Automatic-Program-Repair-via-Retrieval-Augmented-Large-Language-Models
+- **[Some Context]** dataset: https://huggingface.co/datasets/ntt2402vn/30k_withcomments
+- **[Full Context]** dataset: https://huggingface.co/datasets/ntt2402vn/30k_withcomments_solution
+
 ## 📁 Benchmarks
 
 This folder includes the seven benchmarks used in the study:
