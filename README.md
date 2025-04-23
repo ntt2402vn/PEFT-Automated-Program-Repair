@@ -26,6 +26,7 @@ Contains results corresponding to the three research questions. Each result set 
 - `*_RAW.json`: Raw model outputs directly after inference. These may include noise or duplicated responses.
 - `*_CLEAN.json`: Cleaned outputs after applying regex and manual inspection to remove noise.
 - `*_RESULT.json`: Evaluation results based on JUnit test cases from the HumanEval-Java benchmark.
+- CodeGen-350M QLoRA only contains the RAW file since all of its responses were invalid, so no further cleaning or junit testing was conducted. 
 
 ## 📄 Scripts.ipynb
 
