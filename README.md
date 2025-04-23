@@ -41,4 +41,5 @@ A Jupyter notebook containing scripts used to:
 
 - `generate_description_examples.py`: Generates `[Bug Description]` and `[Solution]` instructions for each buggy example in the dataset.
 - `generate_icl.py`: Generates in-context learning examples with buggy/fixed code pairs (e.g., `// buggy code at line 5 → // fixed code`).
+- `generate_explanation.py`: Generate intended code logic for each buggy code in the benchmark.
 - `generate_input_output.py`: Creates valid input/output examples (e.g., `input = [2, 3, 4] → output = 4`) for model inference.
